@@ -1,33 +1,28 @@
-###1️⃣ Requirement Analysis
 
-Owner: Business Analyst
-What they do (actual work):
+# Business Requirements
 
-Talk to bank managers
+## Stakeholders
+- Bank Operations Team
+- Loan Officers
+- Risk Management Team
+- IT Department
 
-Ask: “What rules decide loan approval?”
+## Business Rules
+BR-01: Applicants with credit score >= 750 are eligible for auto-approval  
+BR-02: Applicants with monthly income < INR 25,000 are rejected  
+BR-03: Loan amount cannot exceed 40% of annual income  
+BR-04: Applications failing rules go to manual review  
 
-Convert legal + business rules into logic
+## Functional Requirements
+FR-01: System shall allow users to submit loan applications  
+FR-02: System shall fetch credit score from an external bureau  
+FR-03: System shall evaluate eligibility using business rules  
+FR-04: System shall notify users of loan status  
 
-Example requirement
+## Assumptions
+- Credit bureau API is available
+- Users provide accurate income data
 
-If credit score > 750 → auto approve
-
-If income < ₹25,000 → reject
-
-Manual review for edge cases
-
-📄 Output:
-
-SRS document
-
-User stories like:
-
-“As a loan officer, I want to see flagged applications…”
-
-<img src="Step-1.png" alt="Loan Approval Logo" width="400"/>
-
-<img src="step-2.webp" alt="Loan Approval Logo" width="400"/>
-
-
-<img src="Step-3.jpg" alt="Loan Approval Logo" width="400"/>
+## Constraints
+- Must comply with RBI regulations
+- Decision must be explainable
