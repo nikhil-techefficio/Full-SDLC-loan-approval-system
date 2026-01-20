@@ -1,7 +1,7 @@
 # Full-SDLC-loan-approval-system
-Full SDLC project for Loan approval system
+```Full SDLC project for Loan approval system
 
-``` full-sdlc-loan-approval-system/
+ full-sdlc-loan-approval-system/
 │
 ├── 01-requirements/
 │   ├── business-requirements.md
@@ -41,4 +41,7 @@ Full SDLC project for Loan approval system
 │   ├── system-shutdown-plan.md
 │   ├── data-migration.md
 │
-└── README.md ```
+└── README.md 
+```
+Thanks 
+
