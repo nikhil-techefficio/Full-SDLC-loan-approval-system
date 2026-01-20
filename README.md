@@ -43,7 +43,8 @@
 │
 └── README.md 
 ```
-Thanks 
+
+ ###Basic outline of SDLC
 
 
 ```
