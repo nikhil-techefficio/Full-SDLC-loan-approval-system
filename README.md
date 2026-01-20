@@ -1,8 +1,6 @@
 # Full-SDLC-loan-approval-system
 Full SDLC project for Loan approval system
 
--Project Flow
-
 full-sdlc-loan-approval-system/
 │
 ├── 01-requirements/
