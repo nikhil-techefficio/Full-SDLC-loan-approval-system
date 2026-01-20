@@ -25,4 +25,4 @@ User stories like:
 
 “As a loan officer, I want to see flagged applications…”
 
-<img src="Step-1.png" alt="Loan Approval Logo" width="200"/>
+<img src="Step-1.png" alt="Loan Approval Logo" width="400"/>
