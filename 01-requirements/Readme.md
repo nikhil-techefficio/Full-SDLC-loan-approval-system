@@ -23,9 +23,9 @@ business rules and credit data.
 - Third-party fraud detection (future phase)
 
 
-#Additional:
+# Additional:
 
-##1️⃣ Requirement Analysis
+## 1️⃣ Requirement Analysis
 
 Owner: Business Analyst
 What they do (actual work):
@@ -44,7 +44,7 @@ If income < ₹25,000 → reject
 
 Manual review for edge cases
 
-##📄 Output:
+## 📄 Output:
 
 SRS document
 

@@ -1,17 +1,27 @@
+
 # Non-Functional Requirements
 
-## Performance
-- Loan decision must be completed within 5 seconds
-- System must support 10,000 concurrent users
-
 ## Security
-- All data must be encrypted in transit
-- Role-based access control required
+- Data encrypted at rest and in transit (AES-256)
+- Role-based access control
+- Sensitive fields masked for non-authorized users
+
+## Performance
+- Eligibility evaluation < 2 seconds
+- Credit bureau failures must not block submission
 
 ## Availability
 - 99.9% uptime
-- Graceful failure on third-party API issues
+- Graceful degradation when external services fail
+
+## Data Privacy
+- Aadhaar numbers masked
+- Access logs retained for audit
 
 ## Audit & Compliance
 - Every decision must be logged
 - Manual overrides require justification
+
+## Compliance
+- Decisions must be explainable
+- No black-box ML in MVP
