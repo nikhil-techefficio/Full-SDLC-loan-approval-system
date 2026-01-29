@@ -46,7 +46,7 @@
 
  ###Basic outline of SDLC
 
-
+<img src="./Src/sdl.png" alt="Loan Approval Logo" width="400"/>
 ```
 | SDLC Phase               | Primary Owner         | Sub-Owners                                 | Avg Time             | Tools / Software Used                                  | Core Skills                                              | Degree / Certifications                |
 | ------------------------ | --------------------- | ------------------------------------------ | -------------------- | ------------------------------------------------------ | -------------------------------------------------------- | -------------------------------------- |
